@@ -1,0 +1,321 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+*
+{
+   margin:0;
+    padding:0;
+    font-family: Orbitron;
+
+}
+
+/* container in the class in which all elements are present : Parent class */
+.container
+{
+    background-color: #f7f9f5;
+    margin:10px;
+    width:100%;
+}
+
+/* We will create our first SUB-CONTAINER FOR NAVIGATION PANEL */
+
+/* NAVIGATION PANEL is in Container/class : ".navbar-container" */
+
+/* Firstly, we have to align the elements HORIZONTALLY */
+
+/* To Access all the child class under the Parent class: .navbar-container
+    we use the below code.  
+    In Below code we are aligning all elements of .navbar-container HORIZONTALLY */
+
+.navbar-container > *
+{
+    display:inline-block;
+}
+
+/* we are aligning all elements of .list HORIZONTALLY */ 
+
+/* .navbar-container li
+{
+    display:inline-block;
+} */
+.list > *
+{
+    display:inline-block;
+}
+
+/* we are aligning all elements of .button-group HORIZONTALLY */ 
+
+.button-group > * 
+{
+    display:inline-block;
+}
+
+/* OUR FIRST  SUB CONTAINER is for NAVIGATION PANEL : ".navbar-container" */ 
+
+.navbar-container
+{
+    background-color: #f7f9f5;
+    height:100px;
+}
+/* XOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOX */
+/* XOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOX */
+/* XOXOXOXOXOX  Aligning POSITIONS of Parent 
+and child Container : .container and .navbar-container  */
+/* XOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOX */
+/* XOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOX */
+
+.container
+{
+  position:absolute;
+}
+
+.navbar-container
+{
+    position: absolute;
+    width: 100%;
+}
+/* XOXOXOXOXOXOXOXOXOXOXO */
+/* XOXOXOXOXOXOXOXOXOXOXO */
+/* Now, for Handeling Elements of Navigation Bar container 
+.navbar-container will become "PARENT" and its element 
+become child. */
+/* XOXOXOXOXOXOXOXOXOXOXO */
+/* XOXOXOXOXOXOXOXOXOXOXO */
+.navbar-container
+{
+    position: absolute;
+}
+
+.mylogo
+{
+    position:absolute;
+    top:20px;
+    left:70px;
+    width: fit-content;
+}
+
+.list
+{
+    position:absolute;
+    top:40px;
+    left:400px;
+   
+}
+
+.list li
+{
+    margin-left:60px;
+    font-weight: bold;
+    border-bottom:2px solid white;
+    cursor: pointer;
+}
+
+.list li:hover
+{
+    border-bottom:2px solid #000000;
+}
+
+
+/* Aligning SEARCH ICON AND SEARCH BUTTON */
+/* Aligning SEARCH ICON AND SEARCH BUTTON */
+/* Aligning SEARCH ICON AND SEARCH BUTTON */
+
+.button-group
+{
+    position:absolute;
+    top:20px;
+    right:70px; 
+    cursor: pointer; 
+}
+
+.search-icon
+{
+    position:absolute;
+    top:10px;
+    right:150px; 
+    cursor: pointer;
+}
+
+.nav-button
+{
+    position:absolute;
+    top:10px;
+    right:10px;
+    width:130px;
+    height:38px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* XOXOXOXOXOXOX   hero-container   OXOXOXOXOXOX */
+/* XOXOXOXOXOXOX   hero-container   OXOXOXOXOXOX */
+/* XOXOXOXOXOXOX   hero-container   OXOXOXOXOXOX */
+/* XOXOXOXOXOXOX   hero-container   OXOXOXOXOXOX */
+
+/* NOTE : the "image of hero" is above "square net" and square net is above "hero container"
+    This means whatever is placed underneath/below/under the other element, the code of 
+    that element will comes above : */
+
+
+.hero-container
+{
+    background-color:#f7f9f5;
+    position:absolute;
+    width:100%;
+    height:500px;
+    top:100px;
+}
+.square
+{
+    position:absolute;
+    top:180px;
+    left:140px;
+}  
+.square img
+{
+    width:300px;
+    height:auto;
+}   
+
+.hero
+{
+    position:absolute;
+    top:60px;
+    left:80px;
+    width: 300px;
+    height:auto;
+}
+
+/* XOXOXOXO OXOXOXOX GLOBE AND STAR OXOXOXO XOXOXO OXOX */
+/* XOXOXOXO OXOXOXOX GLOBE AND STAR OXOXOXO XOXOXO OXOX */
+/* XOXOXOXO OXOXOXOX GLOBE AND STAR OXOXOXO XOXOXO OXOX */
+
+.globe
+{
+    position:absolute;
+    left:740px;
+    top:30px;
+}
+
+.globe img
+{
+    width:45px;
+    height:auto;
+}
+.star
+{
+    position:absolute;
+    right:80px;
+    top:60px;
+}
+.star img
+{
+    width:45px;
+    height:auto; 
+}
+
+.star2
+{
+    position:absolute;
+    left:500px;
+    bottom:45px;
+}
+.star2 img
+{
+    width:45px;
+    height:auto; 
+}
+
+/* XOXOXOX  HEADING AND DESCRIPTION   XOXOXOXOX */
+/* XOXOXOX  HEADING AND DESCRIPTION   XOXOXOXOX */
+/* XOXOXOX  HEADING AND DESCRIPTION   XOXOXOXOX */
+/* XOXOXOX  HEADING AND DESCRIPTION   XOXOXOXOX */
+
+.hero-heading
+{
+    position : absolute;
+    top:110px;
+    right:100px;
+    font-size: 60px;
+}
+
+.hero-description
+{
+    position : absolute;
+    top:190px;
+    right:260px;
+    font-size:12px;
+    width:500px;
+    text-align:center;
+    font-family: Poppins;
+}  
+
+/* XOXOXOXOXOXOXOX "EMAIL" and "JOIN NOW" BUTTON XOXOXOXOXOXOXOXO */
+/* XOXOXOXOXOXOXOX "EMAIL" and "JOIN NOW" BUTTON XOXOXOXOXOXOXOXO */
+/* XOXOXOXOXOXOXOX "EMAIL" and "JOIN NOW" BUTTON XOXOXOXOXOXOXOXO */
+/* XOXOXOXOXOXOXOX "EMAIL" and "JOIN NOW" BUTTON XOXOXOXOXOXOXOXO */
+
+.button-email
+{
+    position: absolute;
+    bottom:180px;
+    right:500px;
+    width:180px;
+    height:30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button-join
+{
+    position: absolute;
+    bottom:180px;
+    right:360px;
+    width:120px;
+    height:30px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+/* XOXOXOXOXOXOXOX CONTACT XOXOXOXOXOXOXOXO */
+/* XOXOXOXOXOXOXOX CONTACT XOXOXOXOXOXOXOXO */
+.contact-heading
+{
+    position:absolute;
+    bottom:100px;
+    right:460px;
+    font-family: Poppins;
+    font-size: medium;
+    color: #808080;
+}
+
+/* xoxoxoxoxo SOCIAL MEDIA ICONS  xxxoxoxoxoxoxoxo */
+/* xoxoxoxoxo SOCIAL MEDIA ICONS  xxxoxoxoxoxoxoxo */
+/* xoxoxoxoxo SOCIAL MEDIA ICONS  xxxoxoxoxoxoxoxo */
+/* xoxoxoxoxo SOCIAL MEDIA ICONS  xxxoxoxoxoxoxoxo */
+.icons
+{
+    position: absolute;
+    bottom:40px;
+    right:420px;
+    cursor: pointer;
+}
+.icons img
+{
+    width:30px;
+    height:30px;
+    margin:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
