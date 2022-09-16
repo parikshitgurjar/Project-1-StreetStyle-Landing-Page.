@@ -39,7 +39,7 @@ There are five different position values:
 
 <br>
 
->The project is a part of the learning from Sir Hitesh Choudhary 's course on FULL STACK JAVASCRIPT WEB DEVELOPER. The idea credit is his. I have understood the concepts and learned them by building this on my own with a bare minimum reference of source code (only when my efforts couldn't clear the roadblock). The way of execution is modified as per my viewpoint whenever is necessary.
+>The project is a part of the learning from [ Sir Hitesh Choudhary's ](https://github.com/hiteshchoudhary") course on FULL STACK JAVASCRIPT WEB DEVELOPER. The idea credit is his. I have understood the concepts and learned them by building this on my own with a bare minimum reference of source code (only when my efforts couldn't clear the roadblock). The way of execution is modified as per my viewpoint whenever is necessary.
 
 
 
